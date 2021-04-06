@@ -3,9 +3,7 @@
     <!--Work on reveal and reveal offset-->
     <q-header reveal :reveal-offset="500">
       <q-toolbar class="text-white bg-grey-10">
-        <div class="my-font-greatvibes-regular text-h4 q-pa-sm">
-          Dr. Manzo Maigari
-        </div>
+        <div class="my-font-montserrat-thin text-h4 q-pa-sm">Manzo Maigari</div>
         <q-space />
         <q-tabs narrow-indicator dense active-color="pink">
           <q-route-tab
