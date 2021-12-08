@@ -5,7 +5,7 @@
       <q-toolbar class="text-white bg-grey-10">
         <div class="my-font-montserrat-thin text-h4 q-pa-sm">Manzo Maigari</div>
         <q-space />
-        <q-tabs narrow-indicator dense active-color="pink">
+        <q-tabs narrow-indicator dense active-color="yellow-14">
           <q-route-tab
             label="Home"
             sm
@@ -16,7 +16,7 @@
             exact
           />
           <q-route-tab
-            label="About Me"
+            label="About"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"
@@ -32,7 +32,7 @@
             exact
           />
           <q-route-tab
-            label="Media"
+            label="Fellowship"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"
@@ -40,7 +40,7 @@
             exact
           />
           <q-route-tab
-            label="Contact Me"
+            label="Contact"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"
@@ -168,9 +168,9 @@ export default {
   name: "MainLayout",
   data() {
     return {
-      leftDrawerOpen: false,
+      leftDrawerOpen: false
     };
-  },
+  }
 };
 </script>
 

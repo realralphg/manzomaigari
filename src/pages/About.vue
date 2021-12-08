@@ -1,0 +1,529 @@
+<template>
+  <q-page class="about">
+    <section class="header">
+      <h1 class="about-me text-primary">About</h1>
+      <div class="quote">
+        <blockquote>
+          The man who comes back through the door in the wall will never be
+          quite the same as the man who went out.
+        </blockquote>
+        <cite class="text-primary">Aldous Huxley</cite>
+      </div>
+    </section>
+
+    <!-- <section class="quote">
+      
+    </section> -->
+
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title text-primary">
+            About
+            <!-- More Information <br />
+              About Us -->
+          </h2>
+          <!-- <h4>Community, Technology, Creativity, Finance & more...</h4> -->
+          <p class="about__description">
+            Manzo Maigari is the Director General, Nigeria Agribusiness Group
+            (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Greysoft
+            Technologies, Nigeria Advisory Board Agricultural Policy and
+            Research in Africa (APRA) and Member, National Action Committee,
+            Africa Continental Free Trade Area (ACFTA). He was previously the
+            Commissioner for Agriculture & Forestry and for Commerce, Industry
+            and Tourismin Kaduna State, Nigeria within the period of 2015 -
+            2019. The primary focus of his work at NABG is to …………………………………
+            (Please Fill the Blanks)………………………………… Dr. Manzo has worked for a
+            variety of clients in the public and private sectors in areas
+            relating to Government and its Agencies (Local and International),
+            Commerce, Agriculture, Technology, Real Estate and Industries with a
+            strong arm for policy development and implementation. For these
+            clients, he has developed strategies to deliver business value and
+            assessed, designed and implement management systems to ensure
+            compliance, manage risk and obtain competitive advantage. Dr. Manzo
+            holds a DVM (Doctor of Veterinary Medicine) from Ahmadu Bello
+            University, MBA Leadership and Sustainability from Royal Kennedy
+            College, Switzerland / University of Cumbria and some certificate
+            courses from Harvard, Lee Kwan Yew Institute for Public Policy and
+            Netherlands Business School. His unending achievements include but
+            not limited to; developing the Kaduna State Forestry Policy and the
+            Forestry Law of 2016; Kaduna State Agricultural Extension Framework
+            and Law that upgraded the Kaduna Agricultural Development Project
+            (KADP) to a Statutory Agency; the Kaduna Agricultural Development
+            Agency (KADA); Kaduna State Livestock Development Roadmap and Law
+            establishing Kaduna Livestock and Livestock Products Regulatory
+            Agency; Agricultural Sector Implementation Plan (SIP) of the Kaduna
+            State Development Plan (SDP); Commercial, Industrial and Tourism
+            Sector Implementation Plan (SIP) of the Kaduna State Development
+            Plan; Kaduna State Charter on Ease of Doing Business; Kaduna State
+            Job Creation and Skill Development Policy; Extension Service
+            Delivery Framework for Nomadic Dairy Farmers that Increased Daily
+            Milk Output from 1litre to 3.5 litres per Cow; Community Business
+            Model for Nomads in the Kachia Grazing Reserve with a Processing
+            Facility that has Cut Down Milk Wastages.
+          </p>
+          <!-- <a href="about.html" class="button">More About Us</a> -->
+        </div>
+        <div class="about__img" data-aos="zoom-in">
+          <img src="images/maigari2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <Animecard />
+    </section>
+
+    <section class="cli">
+      <div class="container grider">
+        <p>
+          What thrills me most? Nature! Just studying nature reveals God, the
+          intricate relationships among travellers in the journey called life;
+          every entity in nature has its place & contributes to nature's
+          equilibrium
+        </p>
+        <div class="card-grid">
+          <h2 class="text-primary">
+            Purpose/Passion
+          </h2>
+          <p>
+            If you do not strive for excellence in whatever endeavor you find
+            yourself, you have lost your purpose – Manzo Maigari – My purpose is
+            to make life worth living for the average African starting from
+            Nigeria. We can only truly become great when we come to a full
+            realization of the fact that we are here for others. This is what
+            drives me and this is where I find fulfillment. What is needed to
+            have a fairly comfortable livelihood is right within reach, however
+            most can’t see it. It gives me pleasure to point people in that
+            direction. Africa is blessed with fertile lands for agriculture and
+            a youthful population. With Africa’s booming youth population
+            predicted to grow from 250m today to nearly 840m in 2063, the
+            continent needs to generate around 1.7m jobs a month. Africa is
+            nowhere near that number. Africa’s working age population is
+            expected to grow by 450 million people, or close to 70 percent, by
+            2035. New analysis shows that without effective policy change, there
+            will only be about 100 million new jobs for this growing cadre of
+            working people. However with well-targeted capital investments
+            (physical and human), and policies fostering competitiveness and
+            productivity, Africa’s larger and younger work force has the
+            potential to transform the continent for the better.
+          </p>
+        </div>
+        <div class="card-grid">
+          <h2 class="text-primary">
+            Values/Impact
+          </h2>
+          <p>
+            Creating uttermost value is at the core of everything we do at all
+            of our offices. Much more than beating competitions, making profits
+            or creating amazing products and services, we ensure that first, we
+            are positively impacting the lives of those we engage directly or
+            indirectly. Over the last two years we have created thousands of
+            direct and indirect jobs across our different enterprises both in
+            rural and urban areas. Youth and Women in the rural areas of nine
+            local governments of Kaduna State have been trained, empowered and
+            equipped with requisite tools for farming ginger at a globally
+            competitive level across the ginger value chain. In the urban areas,
+            we have recruited and trained hundreds of youth with digital skills
+            to enable them take advantage of the myriad of freelance and online
+            jobs available across various platforms and sectors. This is a
+            conclusion of The Africa Competitiveness Report 2017, released today
+            by the World Economic Forum, the African Development Bank, and the
+            World Bank Group. With the right combination of policies implemented
+            speedily and effectively, Africa can turn its growing working-age
+            population into a “demographic dividend” in which incomes rise,
+            families can save and invest, cities offer affordable housing,
+            productivity rises, and more investments can take place.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campaigns">
+      <!-- <h2>Campaings</h2> -->
+      <Simple />
+    </section>
+
+    <section class="con">
+      <div class="q-pa-xl  text-white my-font-poppins-regular">
+        <div class="row footer-row">
+          <div class="col-md-3 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <!-- <div class="text-body1 text-bold">About</div> -->
+            <div class="my-font-montserrat-thin text-h4">Manzo Maigari</div>
+            <!-- <q-separator class="bg-grey-9" style="width: 80%" /> -->
+            <div
+              class="q-mt-md q-pr-xl my-font-montserrat-light text-body2 text-white"
+            >
+              Make a Positive Impact on Everyone I meet and everywhere I go. Be
+              a Solution Provider and not a part of the problem to be solved. Be
+              a Role Model Worthy of Emulation Be my best in all that I do
+              Particularly the things I am Naturally good at.
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <div class="text-body1 my-font-montserrat-light">About</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+            >
+              Home
+            </div>
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/about')"
+            >
+              About
+            </div>
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/blog')"
+            >
+              Blog
+            </div>
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/media')"
+            >
+              Media
+            </div>
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/contact')"
+            >
+              Contact Me
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <div class="text-body1 my-font-montserrat-light">Resources</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/blog')"
+            >
+              Blog
+            </div>
+            <div
+              class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
+              @click="$router.push('/project')"
+            >
+              Projects
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <div class="text-body1 my-font-montserrat-light">Social Media</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div class="text-body2 q-mt-md cursor-pointer">
+              <q-icon
+                class="link"
+                color="grey-8"
+                name="ion-logo-facebook"
+                style="font-size: 2em"
+              />
+              <span class="q-ml-sm my-font-montserrat-light">Facebook</span>
+            </div>
+            <div class="text-body2 q-mt-md cursor-pointer">
+              <q-icon
+                class="link"
+                color="grey-8"
+                name="ion-logo-twitter"
+                style="font-size: 2em"
+              />
+              <span class="q-ml-sm my-font-montserrat-light">Twitter</span>
+            </div>
+            <div class="text-body2 q-mt-md cursor-pointer">
+              <q-icon
+                class="link"
+                color="grey-8"
+                name="ion-logo-instagram"
+                style="font-size: 2em"
+              />
+              <span class="q-ml-sm my-font-montserrat-light">Instagram</span>
+            </div>
+            <div class="text-body2 q-mt-md cursor-pointer">
+              <q-icon
+                class="link"
+                color="grey-8"
+                name="ion-logo-linkedin"
+                style="font-size: 2em"
+              />
+              <span class="q-ml-sm my-font-montserrat-light">Linkedin</span>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <div class="text-body1 my-font-montserrat-light">Contact Info</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div class="text-body2 my-font-montserrat-light q-mt-md">
+              Head Office: No 26 Lake Chad Crescent Maitama, Abuja Nigeria.
+            </div>
+            <div class="text-body2 q-mt-md my-font-montserrat-light">
+              <span>Email: </span>
+              <span class="text-primary">support@nabg.org</span>
+            </div>
+            <div class="text-body2 q-mt-md my-font-montserrat-light">
+              <span>Phone: </span>
+              <span class="text-primary">+234 807 777 7777</span>
+            </div>
+          </div>
+        </div>
+        <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
+        <div class="text-caption text-grey-6 my-font-montserrat-light">
+          © 2021 Manzo Maigari. All rights reserved.
+        </div>
+        <div class="text-caption text-grey-6 my-font-montserrat-light">
+          By Greysoft© Technologies.
+        </div>
+      </div>
+    </section>
+  </q-page>
+</template>
+
+<script>
+import Curved from "../components/Curved.vue";
+import Animecard from "../components/Animecard.vue";
+import Simple from "../components/Simple.vue";
+export default {
+  components: {
+    Curved,
+    Animecard,
+    Simple
+  }
+};
+</script>
+
+<style>
+.about {
+  background-color: #333 !important;
+}
+
+.about-me {
+  margin: 0 !important;
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1em;
+  font-weight: 900;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background: url("/images/maigari2.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+}
+.quote {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.quote {
+  font-family: sans-serif;
+  background: #fffdf5;
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 1rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #ffdb58;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: -5rem;
+  top: -2rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: -5rem;
+  bottom: 1rem;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
+  font-weight: 600px;
+}
+
+.about h4 {
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  place-items: center;
+}
+
+.grider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #ffdb58;
+  padding: 1rem;
+}
+
+.cli .grider {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grider > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.card-grid h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.card-grid {
+  border: 2px solid #ffdb58;
+}
+
+@media screen and (max-width: 700px) {
+  .grider,
+  .cli .grider {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .cli .grider > *:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .features-main .grid > *:first-child,
+  .features-main .grid > *:nth-child(2) {
+    grid-column: 1;
+  }
+  .about-me {
+    font-size: 2rem;
+  }
+  .about__container {
+    background-color: #333;
+    grid-template-columns: 1fr !important;
+    margin-top: 2rem !important;
+  }
+  .about__data {
+    min-width: 200px !important;
+  }
+
+  .about__title {
+    /* line-height: 1rem; */
+    text-align: center;
+  }
+  .about__description {
+    text-align: center;
+  }
+}
+
+.about i {
+  margin-left: 3rem;
+}
+.about__data {
+  text-align: left;
+  min-width: 400px;
+  color: #fff;
+}
+
+.about-title {
+  line-height: 1rem;
+}
+
+.about__container {
+  background-color: #333;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.5rem;
+  place-items: center;
+  gap: 2rem;
+  margin-top: 7rem;
+  /* gap: 3.5rem; */
+}
+
+/* .about__container {
+  margin-bottom: var(--mb-2);
+} */
+
+.about__description {
+  margin-bottom: var(--mb-2);
+  font-size: var(--normal-font-size);
+  line-height: 1.5;
+  font-weight: 300;
+  /* font-size: 14px; */
+}
+.about__img {
+  display: flex;
+  column-gap: 1rem;
+  align-self: center;
+  justify-content: center;
+  /* border-radius: 50%; */
+}
+.about__img img {
+  border-radius: 50%;
+}
+
+/* Begin Media Queries*/
+
+@media screen and (max-width: 569px) {
+  .text-h4 {
+    font-size: 1.125rem !important;
+  }
+
+  .footer-row {
+    text-align: center;
+  }
+  .q-pr-xl {
+    padding-right: 0px !important
+    ;
+  }
+
+  .text-caption {
+    text-align: center !important;
+  }
+
+  .section-header {
+    font: 300 20px "Oswald", sans-serif;
+    padding: 0 1rem;
+    margin: 1rem 0;
+  }
+}
+</style>
