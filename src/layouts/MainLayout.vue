@@ -32,7 +32,7 @@
             exact
           />
           <q-route-tab
-            label="Media"
+            label="Fellowship"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"

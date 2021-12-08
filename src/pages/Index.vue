@@ -222,21 +222,23 @@
       </div>
     </section> -->
     <section class="q-mb-lg">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-lg q-py-md">
+      <div class="row container">
+        <div class="col-md-6 col-sm-12 col-xs-12  q-py-xs">
           <q-card square>
-            <q-card-section class="q-pa-md">
+            <q-card-section>
               <div
-                class="text-dark text-h4 my-font-montserrat-bold text-uppercase q-pa-0"
+                class="text-dark hello text-h4 my-font-montserrat-bold text-uppercase q-pa-0"
               >
-                About
+                <div class="section-title">
+                  <h2><span> About </span></h2>
+                </div>
               </div>
               <!-- <div class="text-subtitle2 my-font-montserrat-extraBold">
                 Manzo maigari is a man of purpose and passion that...
               </div> -->
             </q-card-section>
             <q-card-section>
-              <div class="text-body2 my-font-montserrat-light">
+              <div class=" aboutt text-body2 my-font-montserrat-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Accusantium voluptate odit ea ullam quas molestias, quibusdam
                 nostrum maiores obcaecati repellat ipsum et rerum facilis
@@ -252,6 +254,11 @@
                 reprehenderit odio cum! Nostrum veniam omnis quis repudiandae
                 nesciunt quidem adipisci.
               </div>
+              <a
+                class="about custom__btn-pink text-yellow-14 text-uppercase my-font-montserrat-regular q-mt-md"
+                href=""
+                >More about me</a
+              >
             </q-card-section>
           </q-card>
         </div>
@@ -474,7 +481,8 @@
       >
     </section>
 
-    <section class="gallery q-pa-xl bg-dark">
+    <section class="gallery q-pa-md bg-dark">
+      <h1 class="text-primary gallery">Gallery</h1>
       <Gallery />
     </section>
 
@@ -776,6 +784,24 @@ export default {
 </script>
 
 <style lang="scss">
+.aboutt {
+  margin: 0rem 0 1.5rem !important ;
+}
+
+.hello .section-title h2 {
+  color: #1d1d1d !important;
+  text-align: left;
+}
+
+.q-card__section--vert {
+  padding: 5px;
+}
+.gallery {
+  margin: 0 !important;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 .q-card {
   //  box-shadow: 0 1px 5px rgb(0 0 0 / 20%), 0 2px 2px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%);
   box-shadow: none !important;
@@ -819,6 +845,7 @@ img {
   font-size: 35px;
   color: #fff !important;
   font-weight: 600;
+  line-height: 0.5rem;
 }
 
 .section-title h2 span {

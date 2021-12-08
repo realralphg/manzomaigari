@@ -1,47 +1,47 @@
 <template>
   <div class="container-g">
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/alvavet1.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="vertical">
-      <img src="/images/alvavet2.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" class="horizontal">
-      <img src="/images/alvavet 5.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/alvavet4.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/hungarose1.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="big">
-      <img src="/images/babo1.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/babo3.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="vertical">
-      <img src="/images/hungarose2.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/babo2.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="horizontal">
-      <img src="/images/hungarose3.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/agrofeed1.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <!-- <a href="" data-lightbox="homePortfolio" class="big">
@@ -49,15 +49,15 @@
     </a> -->
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/agrofeed2.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="horizontal">
-      <img src="/images/alvavet 6.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="center">
-      <img src="/images/alvavet.jpg" />
+      <img src="/images/boss2.jpg" />
     </a>
   </div>
 </template>

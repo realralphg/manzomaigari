@@ -1,120 +1,125 @@
 <template>
   <q-page class="con">
     <section id="contact">
-      <h1 class="section-header">Get in touch</h1>
+      <h1 class="section-header">Contact</h1>
 
-      <div class="contact-wrapper">
-        <!-- Left contact page -->
+      <div class="wrapie container">
+        <div class="immg">
+          <img src="/images/hhh.jpg" alt="" />
+        </div>
+        <div class="contact-wrapper">
+          <!-- Left contact page -->
 
-        <form id="contact-form" class="form-horizontal" role="form">
-          <div class="form-group col-md-2 col-sm-12 col-xs-12">
-            <div class="col-sm-12">
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="NAME"
-                name="name"
-                value=""
-                required
-                autocomplete="off"
-              />
+          <form id="contact-form" class="form-horizontal" role="form">
+            <div class="form-group col-md-2 col-sm-12 col-xs-12">
+              <div class="col-sm-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                  name="name"
+                  value=""
+                  required
+                  autocomplete="off"
+                />
+              </div>
             </div>
+
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  name="email"
+                  value=""
+                  required
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+
+            <textarea
+              class="form-control"
+              rows="10"
+              placeholder="Message"
+              name="message"
+              required
+            ></textarea>
+
+            <button
+              class="btn btn-primary send-button bg-primary"
+              id="submit"
+              type="submit"
+              value="Send"
+            >
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i
+                ><span class="send-text">Send</span>
+              </div>
+            </button>
+          </form>
+
+          <!-- Left contact page -->
+
+          <div class="direct-contact-container">
+            <ul class="contact-list">
+              <li class="list-item">
+                <i class="fa fa-map-marker fa-2x text-primary"
+                  ><span class="contact-text place">City, State</span></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-phone fa-2x text-primary"
+                  ><span class="contact-text phone"
+                    ><a href="tel:1-212-555-5555" title="Give me a call"
+                      >(212) 555-2368</a
+                    ></span
+                  ></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-envelope fa-2x text-primary"
+                  ><span class="contact-text gmail"
+                    ><a href="mailto:#" title="Send me an email"
+                      >hitmeup@gmail.com</a
+                    ></span
+                  ></i
+                >
+              </li>
+            </ul>
+
+            <hr />
+            <ul class="social-media-list">
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fab fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fab fa-codepen" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fab fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+            <hr />
+
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
           </div>
-
-          <div class="form-group">
-            <div class="col-sm-12">
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="EMAIL"
-                name="email"
-                value=""
-                required
-                autocomplete="off"
-              />
-            </div>
-          </div>
-
-          <textarea
-            class="form-control"
-            rows="10"
-            placeholder="MESSAGE"
-            name="message"
-            required
-          ></textarea>
-
-          <button
-            class="btn btn-primary send-button bg-primary"
-            id="submit"
-            type="submit"
-            value="SEND"
-          >
-            <div class="alt-send-button">
-              <i class="fa fa-paper-plane"></i
-              ><span class="send-text">SEND</span>
-            </div>
-          </button>
-        </form>
-
-        <!-- Left contact page -->
-
-        <div class="direct-contact-container">
-          <ul class="contact-list">
-            <li class="list-item">
-              <i class="fa fa-map-marker fa-2x text-primary"
-                ><span class="contact-text place">City, State</span></i
-              >
-            </li>
-
-            <li class="list-item">
-              <i class="fa fa-phone fa-2x text-primary"
-                ><span class="contact-text phone"
-                  ><a href="tel:1-212-555-5555" title="Give me a call"
-                    >(212) 555-2368</a
-                  ></span
-                ></i
-              >
-            </li>
-
-            <li class="list-item">
-              <i class="fa fa-envelope fa-2x text-primary"
-                ><span class="contact-text gmail"
-                  ><a href="mailto:#" title="Send me an email"
-                    >hitmeup@gmail.com</a
-                  ></span
-                ></i
-              >
-            </li>
-          </ul>
-
-          <hr />
-          <ul class="social-media-list">
-            <li>
-              <a href="#" target="_blank" class="contact-icon">
-                <i class="fab fa-github" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="contact-icon">
-                <i class="fab fa-codepen" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="contact-icon">
-                <i class="fab fa-twitter" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="contact-icon">
-                <i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
-            </li>
-          </ul>
-          <hr />
-
-          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
         </div>
       </div>
     </section>
@@ -263,6 +268,12 @@ export default {};
   background-color: #333 !important;
 }
 
+.container {
+  max-width: 1440px;
+  width: 95%;
+  margin: 0 auto;
+}
+
 #contact {
   width: 100%;
   height: 100%;
@@ -273,17 +284,37 @@ export default {};
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px "Oswald", sans-serif;
+  font: 300 60px sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 6px;
 }
+.wrapie {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.wrapie .immg img {
+  width: 100%;
+  height: 400px;
+  border-radius: 50%;
+  /* min-height: 400px; */
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .wrapie .immg img {
+    height: 100%;
+  }
+}
 .contact-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   padding: 20px;
   position: relative;
   max-width: 840px;
@@ -361,7 +392,7 @@ textarea::placeholder {
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  font: 300 18px sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }

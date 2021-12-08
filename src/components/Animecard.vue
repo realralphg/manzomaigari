@@ -1,29 +1,33 @@
 <template>
-  <q-page>
-    <div class="card-pob container">
-      <div class="game ">
-        <div class="rank">3</div>
+  <div class="card-pob container">
+    <div class="game ">
+      <!-- <div class="rank">3</div> -->
 
-        <div class="front">
-          <img class="thumbnail" src="images/game-cover.jpg" alt="" />
-          <h3 class="name icon">Game name</h3>
-          <div class="stats">
+      <div class="front">
+        <i class="fas fa-eye fa-3x"></i>
+        <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
+        <h3 class="name icon text-primary">Vision</h3>
+        <!-- <div class="stats">
             <p class="viewers icon">539.9k</p>
             <div class="streamers">
               <img src="images/streamer-1.jpg" alt="" />
               <img src="images/streamer-2.jpg" alt="" />
               <img src="images/streamer-3.jpg" alt="" />
             </div>
-          </div>
-        </div>
+          </div> -->
+      </div>
 
-        <div class="back">
-          <div class="streaming-info">
+      <div class="back">
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
+          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        </div>
+        <!-- <div class="streaming-info">
             <p class="game-stat">559k<span>Watching</span></p>
             <p class="game-stat">25.8k<span>Streams</span></p>
           </div>
-          <button class="btn">See more streams</button>
-          <div class="streamers">
+          <button class="btn">See more streams</button> -->
+        <!-- <div class="streamers">
             <div class="streamer">
               <div class="icon"><img src="images/streamer-1.jpg" alt="" /></div>
               <p class="name">Gamer1</p>
@@ -39,19 +43,119 @@
               <p class="name">Gamer 3</p>
               <p class="number">34.1k</p>
             </div>
-          </div>
-        </div>
-
-        <div class="background">
-          <img src="img/game-cover.jpg" alt="" />
-        </div>
+          </div> -->
       </div>
-      <svg width="0" height="0" x="0px" y="0px">
+
+      <!-- <div class="background">
+          <img src="img/game-cover.jpg" alt="" />
+        </div> -->
+    </div>
+    <div class="game ">
+      <!-- <div class="rank">3</div> -->
+
+      <div class="front">
+        <i class="fas fa-bullseye fa-3x"></i>
+        <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
+        <h3 class="name icon text-primary">Mission</h3>
+        <!-- <div class="stats">
+            <p class="viewers icon">539.9k</p>
+            <div class="streamers">
+              <img src="images/streamer-1.jpg" alt="" />
+              <img src="images/streamer-2.jpg" alt="" />
+              <img src="images/streamer-3.jpg" alt="" />
+            </div>
+          </div> -->
+      </div>
+
+      <div class="back">
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
+          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        </div>
+        <!-- <div class="streaming-info">
+            <p class="game-stat">559k<span>Watching</span></p>
+            <p class="game-stat">25.8k<span>Streams</span></p>
+          </div>
+          <button class="btn">See more streams</button> -->
+        <!-- <div class="streamers">
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-1.jpg" alt="" /></div>
+              <p class="name">Gamer1</p>
+              <p class="number">36.1k</p>
+            </div>
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-2.jpg" alt="" /></div>
+              <p class="name">Gamer 2</p>
+              <p class="number">35.1k</p>
+            </div>
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-3.jpg" alt="" /></div>
+              <p class="name">Gamer 3</p>
+              <p class="number">34.1k</p>
+            </div>
+          </div> -->
+      </div>
+
+      <!-- <div class="background">
+          <img src="img/game-cover.jpg" alt="" />
+        </div> -->
+    </div>
+    <div class="game ">
+      <!-- <div class="rank">3</div> -->
+
+      <div class="front">
+        <i class="fas fa-balance-scale fa-3x"></i>
+        <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
+        <h3 class="name icon text-primary">Values</h3>
+        <!-- <div class="stats">
+                <p class="viewers icon">539.9k</p>
+                <div class="streamers">
+                <img src="images/streamer-1.jpg" alt="" />
+                <img src="images/streamer-2.jpg" alt="" />
+                <img src="images/streamer-3.jpg" alt="" />
+                </div>
+            </div> -->
+      </div>
+
+      <div class="back">
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
+          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        </div>
+        <!-- <div class="streaming-info">
+            <p class="game-stat">559k<span>Watching</span></p>
+            <p class="game-stat">25.8k<span>Streams</span></p>
+          </div>
+          <button class="btn">See more streams</button> -->
+        <!-- <div class="streamers">
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-1.jpg" alt="" /></div>
+              <p class="name">Gamer1</p>
+              <p class="number">36.1k</p>
+            </div>
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-2.jpg" alt="" /></div>
+              <p class="name">Gamer 2</p>
+              <p class="number">35.1k</p>
+            </div>
+            <div class="streamer">
+              <div class="icon"><img src="images/streamer-3.jpg" alt="" /></div>
+              <p class="name">Gamer 3</p>
+              <p class="number">34.1k</p>
+            </div>
+          </div> -->
+      </div>
+
+      <!-- <div class="background">
+          <img src="img/game-cover.jpg" alt="" />
+        </div> -->
+    </div>
+    <!-- <svg width="0" height="0" x="0px" y="0px">
         <defs>
           <clipPath id="wave" clipPathUnits="objectBoundingBox">
             <path
               d="M1.5,0H1H0.5H0v0.8C0.3,0.8,0.3,1,0.5,1c0,0,0,0,0,0C0.8,1,0.8,0.8,1,0.8c0,0,0,0,0,0C1.3,0.8,1.3,1,1.5,1
-	C1.8,1,1.8,0.8,2,0.8V0H1.5z"
+              C1.8,1,1.8,0.8,2,0.8V0H1.5z"
             />
             <animateTransform
               attributeType="XML"
@@ -65,9 +169,8 @@
             />
           </clipPath>
         </defs>
-      </svg>
-    </div>
-  </q-page>
+      </svg> -->
+  </div>
 </template>
 
 <script>
@@ -107,13 +210,18 @@ img {
 
 .game {
   position: relative;
-  width: 12.5em;
-  min-width: 300px;
+  text-align: center;
+  padding: 3rem;
+  /* width: 12.5em; */
+  /* min-width: 300px; */
+  width: 100%;
   height: 100%;
   cursor: pointer;
+  background-color: #f4f4f4;
+  border-radius: 8px;
 }
 
-.streamers {
+/* .streamers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,9 +232,9 @@ img {
   width: 2em;
   height: 2em;
   border-radius: 50%;
-}
+} */
 
-.rank {
+/* .rank {
   position: absolute;
   top: 0;
   right: 1em;
@@ -139,15 +247,38 @@ img {
   clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-}
+} */
 
+.card-pob {
+  margin-top: 2rem;
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  place-items: center;
+  /* background: red !important; */
+  margin-top: 2rem;
+}
+@media (max-width: 700px) {
+  .card-pob {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
 .front {
   -webkit-transition: 250ms;
   transition: 250ms;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .front .thumbnail {
   border-radius: var(--br);
+}
+.front i {
+  margin: 0 !important;
 }
 
 .front .name {
@@ -179,7 +310,7 @@ img {
   content: "\f007";
   color: rgba(255, 255, 255, 0.75);
   font-size: 0.75em;
-  margin-right: 0.5em;
+  /* margin-right: 0.5em; */
 }
 
 .front .streamers img {
