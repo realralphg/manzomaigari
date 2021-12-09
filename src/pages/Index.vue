@@ -815,7 +815,7 @@
             <div class="text-body1 my-font-montserrat-light">Contact Info</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 my-font-montserrat-light q-mt-md">
-              31, Gwari Avenue, Barnawa, Kaduna, Nigeria..
+              Head Office: No 26 Lake Chad Crescent Maitama, Abuja Nigeria.
             </div>
             <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Email: </span>
