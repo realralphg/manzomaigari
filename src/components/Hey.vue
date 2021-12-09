@@ -51,7 +51,7 @@
     >
       <div class="cardd">
         <figure class="carousel-img">
-          <img src="/images/4.jpg" />
+          <img src="/images/44.jpg" />
 
           <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
@@ -74,7 +74,7 @@
       </div>
       <div class="cardd">
         <figure class="carousel-img">
-          <img src="/images/alvavet1.jpg" />
+          <img src="/images/alvavet11.jpg" />
 
           <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
@@ -121,7 +121,7 @@
       </div>
       <div class="cardd">
         <figure class="carousel-img">
-          <img src="/images/agrofeed4.jpg" />
+          <img src="/images/agrofeed44.jpg" />
 
           <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
