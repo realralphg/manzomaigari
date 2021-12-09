@@ -94,7 +94,7 @@ img {
 }
 
 .image-08 {
-  background-image: url("/images/babo12.jpg");
+  background-image: url("/images/babo33.jpg");
   flex: 2;
 }
 

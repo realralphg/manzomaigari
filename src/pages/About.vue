@@ -4,10 +4,10 @@
       <h1 class="about-me text-primary">About</h1>
       <div class="quote">
         <blockquote>
-          The man who comes back through the door in the wall will never be
-          quite the same as the man who went out.
+          If you do not strive for excellence in your endeavours, you have lost
+          your purpose.
         </blockquote>
-        <cite class="text-primary">Aldous Huxley</cite>
+        <cite class="text-primary">Dr. Manzo Maigari</cite>
       </div>
     </section>
 

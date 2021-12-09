@@ -68,7 +68,9 @@
             <ul class="contact-list">
               <li class="list-item">
                 <i class="fa fa-map-marker fa-2x text-primary"
-                  ><span class="contact-text place">Abuja, Nigeria</span></i
+                  ><span class="contact-text place"
+                    >31, Gwari Avenue, Barnawa, Kaduna, Nigeria.</span
+                  ></i
                 >
               </li>
 
@@ -108,7 +110,7 @@
             </ul>
             <hr />
 
-            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+            <!-- <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div> -->
           </div>
         </div>
       </div>
