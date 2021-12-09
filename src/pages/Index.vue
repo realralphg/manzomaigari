@@ -5,6 +5,7 @@
         style="height: calc(100vh - 48px)"
         animated
         v-model="slide"
+        autoplay
         arrows
         control-color="white"
         navigation-icon="radio_button_unchecked"
