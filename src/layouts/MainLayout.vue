@@ -72,7 +72,7 @@
                       ><q-btn
                         stretch
                         flat
-                        label="About Us"
+                        label="About"
                         to="/about"
                         no-caps
                         size="md"
@@ -86,6 +86,20 @@
                       ><q-btn
                         stretch
                         flat
+                        label="fellowship"
+                        to="/fellowship"
+                        no-caps
+                        size="md"
+                        class="q-mx-sm my-font-montserrat-light"
+                    /></q-item-label>
+                  </q-item-section>
+                </q-item>
+                <!-- <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-item-label
+                      ><q-btn
+                        stretch
+                        flat
                         label="Membership"
                         to="/membership"
                         no-caps
@@ -93,8 +107,8 @@
                         class="q-mx-sm my-font-montserrat-light"
                     /></q-item-label>
                   </q-item-section>
-                </q-item>
-                <q-item clickable v-close-popup>
+                </q-item> -->
+                <!-- <q-item clickable v-close-popup>
                   <q-item-section>
                     <q-item-label
                       ><q-btn
@@ -107,8 +121,8 @@
                         class="q-mx-sm my-font-montserrat-light"
                     /></q-item-label>
                   </q-item-section>
-                </q-item>
-                <q-item clickable v-close-popup>
+                </q-item> -->
+                <!-- <q-item clickable v-close-popup>
                   <q-item-section>
                     <q-item-label
                       ><q-btn
@@ -121,8 +135,8 @@
                         class="q-mx-sm my-font-montserrat-light"
                     /></q-item-label>
                   </q-item-section>
-                </q-item>
-                <q-item clickable v-close-popup>
+                </q-item> -->
+                <!-- <q-item clickable v-close-popup>
                   <q-item-section>
                     <q-item-label
                       ><q-btn
@@ -135,14 +149,14 @@
                         class="q-mx-sm my-font-montserrat-light"
                     /></q-item-label>
                   </q-item-section>
-                </q-item>
+                </q-item> -->
                 <q-item clickable v-close-popup>
                   <q-item-section>
                     <q-item-label
                       ><q-btn
                         stretch
                         flat
-                        label="Contact Us"
+                        label="Contact"
                         to="/contact"
                         no-caps
                         size="md"
