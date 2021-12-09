@@ -1,7 +1,7 @@
 <template>
   <q-page class="con">
     <section id="contact">
-      <h1 class="section-header">Contact</h1>
+      <h2 class="section-header">Contact</h2>
 
       <div class="wrapie container">
         <div class="immg">
@@ -73,16 +73,23 @@
                   ></i
                 >
               </li>
-
-              <li class="list-item">
+              <!-- <li class="list-item">
                 <i class="fa fa-envelope fa-2x text-primary"
-                  ><span class="contact-text gmail"
+                  ><span class="contact-text place"
+                    >manzo@manzomaigari.com</span
+                  ></i
+                >
+              </li> -->
+
+              <!-- <li class="list-item">
+                <i class="fa fa-envelope fa-2x text-primary">
+                  <span class="contact-text gmail"
                     ><a href="mailto:#" title="Send me an email"
                       >manzo@manzomaigari.com</a
                     ></span
                   ></i
                 >
-              </li>
+              </li> -->
             </ul>
 
             <hr />
@@ -276,7 +283,7 @@ export default {};
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px sans-serif;
+  font-size: 30px !important;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -561,9 +568,9 @@ hr {
     line-height: 55px;
   }
   .section-header {
-    font: 300 20px "Oswald", sans-serif;
-    padding: 0 1rem;
-    margin: 1rem 0;
+    /* font: 300 16px; */
+    padding: 1rem 1rem;
+    /* margin: 1rem 0; */
   }
 }
 

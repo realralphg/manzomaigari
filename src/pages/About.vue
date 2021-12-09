@@ -448,7 +448,7 @@ export default {
 }
 .quote {
   position: absolute;
-  bottom: -50px;
+  bottom: -70px;
   left: 50%;
   transform: translate(-50%);
   /* border: 2px solid red; */
@@ -508,7 +508,7 @@ cite {
 
 .rower {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   place-items: center;
 }
@@ -605,6 +605,10 @@ cite {
   padding: 2rem;
   border-radius: 8px;
   /* border: 2px solid #ffdb58; */
+}
+
+.about__data h2 {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 700px) {

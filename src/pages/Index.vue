@@ -5,7 +5,6 @@
         style="height: calc(100vh - 48px)"
         animated
         v-model="slide"
-        autoplay
         arrows
         control-color="white"
         navigation-icon="radio_button_unchecked"
@@ -102,10 +101,10 @@
             >
               Values. Impact.
             </span>
-            <span class="text-white text-body1 my-font-montserrat-light"
+            <span class="text-white text-r text-body1 my-font-montserrat-light"
               >Making African lives worth living through job creation,</span
             >
-            <span class="text-white text-body1 my-font-montserrat-light"
+            <span class="text-white text-r text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
             <q-btn
@@ -138,10 +137,10 @@
               Values. Impact.
             </span> -->
 
-            <span class="text-white text-body1 my-font-montserrat-light"
+            <span class="text-white text-r text-body1 my-font-montserrat-light"
               >Making African lives worth living through job creation,</span
             >
-            <span class="text-white text-body1 my-font-montserrat-light"
+            <span class="text-white text-r text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
 
@@ -320,7 +319,7 @@
             </h2> -->
         <h2><span class="perp text-dark"> Passion </span></h2>
 
-        <p class="middle">
+        <p class="middle q-pa-lg">
           Creating uttermost value is at the core of everything we do at all of
           our offices. Much more than beating competitions, making profits or
           creating amazing products and services, we ensure that first, we are
@@ -383,7 +382,7 @@
         </div>
         <div class="row">
           <div class="fun-facts-img">
-            <img alt="executive" src="/images/maigari7.jpg" />
+            <img class="q-my-md" alt="executive" src="/images/maigari7.jpg" />
           </div>
           <div class="fun-facts-items">
             <div class="row">
@@ -542,7 +541,7 @@
 
     <section class="custom__bg-quote flex justify-center items-center q-px-xl">
       <span
-        class="text-h3 text-weight-light text-center text-white my-font-montserrat-light"
+        class="text-h4 q-pa-lg text-weight-light text-center text-white my-font-montserrat-light"
       >
         'If you do not strive for excellence in your endeavours, you have lost
         your purpose.'
@@ -858,6 +857,9 @@ export default {
 </script>
 
 <style lang="scss">
+.text-r {
+  text-align: right;
+}
 .campaings {
   background: grey !important;
 }
@@ -905,7 +907,7 @@ img {
 //   text-align: center;
 // }
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -934,7 +936,7 @@ img {
 }
 .rower {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   place-items: center;
 }
@@ -1148,6 +1150,7 @@ img {
   width: 100%;
   align-items: center;
   padding: 0 15px;
+
   object-fit: contain;
 }
 .fun-facts-item {

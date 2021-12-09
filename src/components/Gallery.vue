@@ -117,4 +117,30 @@ export default {};
   grid-column: span 3;
   grid-row: span 2;
 }
+
+@media (max-width: 500px) {
+  .horizontal {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .horizontal {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .vertical {
+    grid-row: span 1;
+    grid-column: span 1;
+    /* grid-row: span 3; */
+  }
+  .center {
+    grid-column: span 1;
+    /* grid-row: span 3; */
+  }
+
+  .big {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
 </style>

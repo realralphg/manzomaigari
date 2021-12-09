@@ -6,7 +6,7 @@
             </h2> -->
       <h2><span class="perps text-primary"> Impact </span></h2>
 
-      <p class="middle text-white">
+      <p class="middle text-white q-px-md">
         I strive to make a positive impact on everyone I meet and everywhere I
         go; to be a solution provider and not a part of the problem to be
         solved; to be a role model worthy of emulation; to be my best in all I

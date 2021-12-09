@@ -46,7 +46,7 @@
 
 
     <section class="about section" id="about">
-        <div class="about__container container grid flex">
+        <div class="about__container container grid fle">
             <div class="about__img" data-aos="zoom-in">
             <img src="/images/member.png" class="drr" alt="" />
             <!-- <div class="about__img-overlay">
