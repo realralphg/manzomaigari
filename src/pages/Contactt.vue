@@ -225,16 +225,16 @@
             <div class="text-body1 my-font-montserrat-light">Contact Info</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 my-font-montserrat-light q-mt-md">
-              Head Office: No 26 Lake Chad Crescent Maitama, Abuja Nigeria.
+              31, Gwari Avenue, Barnawa, Kaduna, Nigeria.
             </div>
             <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Email: </span>
-              <span class="text-primary">support@nabg.org</span>
+              <span class="text-primary">manzo@manzomaigari.com</span>
             </div>
-            <div class="text-body2 q-mt-md my-font-montserrat-light">
+            <!-- <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Phone: </span>
               <span class="text-primary">+234 807 777 7777</span>
-            </div>
+            </div> -->
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
