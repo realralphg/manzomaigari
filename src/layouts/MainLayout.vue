@@ -23,20 +23,20 @@
             to="/about"
             exact
           />
-          <q-route-tab
+          <!-- <q-route-tab
             label="Blog"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"
             to="/membership"
             exact
-          />
+          /> -->
           <q-route-tab
             label="Fellowship"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-montserrat-light"
-            to="/leadership"
+            to="/Fellowship"
             exact
           />
           <q-route-tab

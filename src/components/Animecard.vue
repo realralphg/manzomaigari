@@ -6,7 +6,7 @@
       <div class="front">
         <i class="fas fa-eye fa-3x"></i>
         <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
-        <h3 class="name icon text-primary">Vision</h3>
+        <h3 class="name icon text-primary">Purpose</h3>
         <!-- <div class="stats">
             <p class="viewers icon">539.9k</p>
             <div class="streamers">
@@ -18,9 +18,11 @@
       </div>
 
       <div class="back">
-        <div class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
-          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        <div class="text aboutt">
+          If you do not strive for excellence in whatever endeavor you find
+          yourself, you have lost your purpose – Manzo Maigari – My purpose is
+          to make life worth living for the average African starting from
+          Nigeria.
         </div>
         <!-- <div class="streaming-info">
             <p class="game-stat">559k<span>Watching</span></p>
@@ -56,7 +58,7 @@
       <div class="front">
         <i class="fas fa-bullseye fa-3x"></i>
         <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
-        <h3 class="name icon text-primary">Mission</h3>
+        <h3 class="name icon text-primary">Values</h3>
         <!-- <div class="stats">
             <p class="viewers icon">539.9k</p>
             <div class="streamers">
@@ -68,9 +70,12 @@
       </div>
 
       <div class="back">
-        <div class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
-          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        <div class="text aboutt">
+          Creating uttermost value is at the core of everything we do at all of
+          our offices. Much more than beating competitions, making profits or
+          creating amazing products and services, we ensure that first, we are
+          positively impacting the lives of those we engage directly or
+          indirectly.
         </div>
         <!-- <div class="streaming-info">
             <p class="game-stat">559k<span>Watching</span></p>
@@ -106,7 +111,7 @@
       <div class="front">
         <i class="fas fa-balance-scale fa-3x"></i>
         <!-- <img class="thumbnail" src="images/game-cover.jpg" alt="" /> -->
-        <h3 class="name icon text-primary">Values</h3>
+        <h3 class="name icon text-primary">Passion</h3>
         <!-- <div class="stats">
                 <p class="viewers icon">539.9k</p>
                 <div class="streamers">
@@ -118,9 +123,11 @@
       </div>
 
       <div class="back">
-        <div class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam
-          modi ad dolores fuga rem nam illo quasi fugit magnam!
+        <div class="text aboutt">
+          What thrills me most? Nature! Just studying nature reveals God, the
+          intricate relationships among travellers in the journey called life;
+          every entity in nature has its place & contributes to nature's
+          equilibrium
         </div>
         <!-- <div class="streaming-info">
             <p class="game-stat">559k<span>Watching</span></p>
@@ -178,6 +185,12 @@ export default {};
 </script>
 
 <style>
+.aboutt {
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 0rem 0 2rem !important ;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -213,7 +226,7 @@ img {
   text-align: center;
   padding: 3rem;
   /* width: 12.5em; */
-  /* min-width: 300px; */
+  min-height: 350px;
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -332,6 +345,7 @@ img {
   opacity: 0;
   position: absolute;
   top: 55%;
+  padding: 1rem;
   left: 0;
   right: 0;
   display: -webkit-box;

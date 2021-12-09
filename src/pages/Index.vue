@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page class="bg-grey-12">
     <header>
       <q-carousel
         style="height: calc(100vh - 48px)"
@@ -37,11 +37,13 @@
             <span class="text-white text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
-            <a
-              href="#"
-              class="custom__btn-pink text-primary text-uppercase my-font-montserrat-regular q-mt-md"
-              >Get To Know Me</a
-            >
+            <q-btn
+              to="/about"
+              class="text-primary q-my-md q-px-xl q-py-sm"
+              outline
+              style="color: goldenrod;"
+              label="About Manzo"
+            />
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="2" img-src="/images/maigari8.jpg">
@@ -70,11 +72,13 @@
             <span class="text-white text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
-            <a
-              href="#"
-              class="custom__btn-pink text-primary text-uppercase my-font-montserrat-regular q-mt-md"
-              >Get To Know Me</a
-            >
+            <q-btn
+              to="/about"
+              class="text-primary q-my-md q-px-xl q-py-sm"
+              outline
+              style="color: goldenrod;"
+              label="About Manzo"
+            />
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="3" img-src="/images/maigari4.jpg">
@@ -103,11 +107,13 @@
             <span class="text-white text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
-            <a
-              href="#"
-              class="custom__btn-pink text-primary text-uppercase my-font-montserrat-regular q-mt-md"
-              >Get To Know Me</a
-            >
+            <q-btn
+              to="/about"
+              class="text-primary q-my-md q-px-xl q-py-sm"
+              outline
+              style="color: goldenrod;"
+              label="About Manzo"
+            />
           </div>
         </q-carousel-slide>
         <q-carousel-slide :name="4" img-src="/images/maigari1.jpg">
@@ -137,11 +143,19 @@
             <span class="text-white text-body1 my-font-montserrat-light"
               >empowerment, mentoring and skill development.</span
             >
-            <a
+
+            <q-btn
+              to="/about"
+              class="text-primary q-my-md q-px-xl q-py-sm"
+              outline
+              style="color: goldenrod;"
+              label="About Manzo"
+            />
+            <!-- <a
               href="#"
               class="custom__btn-pink text-yellow-14 text-uppercase my-font-montserrat-regular q-mt-md"
-              >Get To Know Me</a
-            >
+              >About Manzo</a
+            > -->
           </div>
         </q-carousel-slide>
         <!-- <q-carousel-slide :name="5" img-src="/images/maigari5.jpg">
@@ -222,8 +236,8 @@
       </div>
     </section> -->
     <section class="q-mb-lg">
-      <div class="row container">
-        <div class="col-md-6 col-sm-12 col-xs-12  q-py-xs">
+      <div class="row align container">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-py-xl  q-py-xs">
           <q-card square>
             <q-card-section>
               <div
@@ -238,88 +252,132 @@
               </div> -->
             </q-card-section>
             <q-card-section>
-              <div class=" aboutt text-body2 my-font-montserrat-light">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Accusantium voluptate odit ea ullam quas molestias, quibusdam
-                nostrum maiores obcaecati repellat ipsum et rerum facilis
-                consequuntur itaque sit doloribus. Corrupti similique obcaecati
-                nihil, earum cumque sed cum placeat dolorum laboriosam
-                reiciendis doloremque laudantium alias asperiores molestiae
-                incidunt aliquam maiores at veniam. Quisquam animi sequi, modi
-                alias, ipsum asperiores eos similique magni corrupti assumenda
-                dolore quidem, in obcaecati officiis voluptatibus dolorum ad
-                excepturi delectus natus hic. Perspiciatis labore eum impedit
-                minima animi iste at excepturi facilis neque sapiente, vitae
-                culpa facere ad exercitationem, deleniti placeat nisi
-                reprehenderit odio cum! Nostrum veniam omnis quis repudiandae
-                nesciunt quidem adipisci.
+              <div class=" aboutt text-body1">
+                Manzo Maigari is the Director General, Nigeria Agribusiness
+                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited,
+                Greysoft Technologies, Nigeria Advisory Board Agricultural
+                Policy and Research in Africa (APRA) and Member, National Action
+                Committee, Africa Continental Free Trade Area (ACFTA). He was
+                previously the Commissioner for Agriculture & Forestry and for
+                Commerce, Industry and Tourismin Kaduna State, Nigeria within
+                the period of 2015 - 2019. Dr. Manzo has worked for a variety of
+                clients in the public and private sectors in areas relating to
+                Government and its Agencies (Local and International), Commerce,
+                Agriculture, Technology, Real Estate and Industries with a
+                strong arm for policy development and implementation.
               </div>
-              <a
+              <q-btn
+                class="about text-primary q-pa-sm"
+                to="/about"
+                label="Read More"
+              />
+              <!-- <a 
                 class="about custom__btn-pink text-yellow-14 text-uppercase my-font-montserrat-regular q-mt-md"
                 href=""
-                >More about me</a
-              >
+                >Read More</
+              > -->
             </q-card-section>
           </q-card>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-lg q-py-md">
           <q-card flat square class="bg-white">
-            <img alt="executive" src="/images/maigari4.jpg" class="dr" />
+            <div class="experience__img grid">
+              <div class="over">
+                <div class="experience__overlay rel">
+                  <img
+                    src="/images/drm3.jpg"
+                    alt=""
+                    class="experience__img-one dr"
+                  />
+                </div>
+                <div class="experience__overlay">
+                  <img
+                    src="/images/dr1.jpg"
+                    alt=""
+                    class="experience__img-one"
+                  />
+                </div>
+                <div class="experience__overlay">
+                  <img
+                    src="/images/drm2.jpg"
+                    alt=""
+                    class="experience__img-two"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- <img alt="executive" src="/images/maigari3.jpg" class="dr" /> -->
           </q-card>
         </div>
       </div>
     </section>
 
-    <section class="dr-cards">
-      <div class="rower container">
+    <section class="dr-cards section">
+      <div class="section-title text-center q-py-lg">
+        <!-- <h2 class="text-center">
+              My Perspectives
+            </h2> -->
+        <h2><span class="perp text-dark"> Passion </span></h2>
+
+        <p class="middle">
+          Creating uttermost value is at the core of everything we do at all of
+          our offices. Much more than beating competitions, making profits or
+          creating amazing products and services, we ensure that first, we are
+          positively impacting the lives of those we engage directly or
+          indirectly.
+        </p>
+      </div>
+      <div class="rower  container">
         <div class="card">
           <div class="icon">
             <i class="fas fa-eye fa-3x"></i>
           </div>
-          <h5>Manzo different cards</h5>
+          <h5>Vision</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-            blanditiis cupiditate temporibus sapiente voluptate pariatur
-            provident, nulla tempora culpa fugit!
+            Raise a Generation that is Empowered Motivated and Stirred to
+            Operate with Natural Excellence. (GEMSTONE)
           </p>
         </div>
         <div class="card">
           <div class="icon">
             <i class="fas fa-bullseye fa-3x"></i>
           </div>
-          <h5>Lorem ipsum dolor sit amet.</h5>
+          <h5>Mission</h5>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-            vitae dolorem molestias dolorum vel facilis delectus molestiae
-            aperiam harum reprehenderit.
+            Help nation builders live a lifestyle of Leadership & Excellence for
+            Accelerated Development (L.E.A.D) in their Personal & Professional
+            Lives as we collectively build Nigeria into a most desirable Nation
+            to live in.
           </p>
         </div>
         <div class="card">
           <div class="icon">
             <i class="fas fa-balance-scale fa-3x"></i>
           </div>
-          <h5>Lorem ipsum dolor sit amet.</h5>
+          <h5>Values</h5>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequatur perferendis impedit atque, soluta labore doloremque
-            voluptate. Aliquam, deserunt. Cum, quas?
+            Health <br />
+            Family <br />
+            Leadership <br />
+            Integrity <br />
+            Legacy
           </p>
         </div>
       </div>
     </section>
 
-    <setion class="campaings">
+    <setion class="campaings bg-dark">
       <Hey />
     </setion>
 
-    <section class="fun-facts-section sec-padding">
+    <section class="fun-facts-section bg-primary sec-padding">
       <div class="container">
         <div class="row center">
-          <div class="section-title text-center">
+          <div class="section-title text-center q-py-lg">
             <!-- <h2 class="text-center">
               My Perspectives
             </h2> -->
-            <h2><span> Perspectives </span></h2>
+            <h2><span class="perp text-dark"> Perspectives </span></h2>
           </div>
         </div>
         <div class="row">
@@ -329,21 +387,43 @@
           <div class="fun-facts-items">
             <div class="row">
               <div class="fun-facts-item">
-                <h3>4+</h3>
-                <p>Organizations like IIM Bangalore and more</p>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/y3B_chSsyM8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
 
               <div class="fun-facts-item">
-                <h3>2+</h3>
-                <p>Non-Profit-Organizations</p>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/E4GiUL3FS0M"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
 
               <div class="fun-facts-item">
-                <h3>1+</h3>
-                <p>Script foundation and Script winter of code</p>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/5kwiXn6PRSc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
 
               <div class="fun-facts-item">
+                <img src="/images/5minutes.jpg" alt="" />
                 <!-- <h3>
                   More
                   <a href="https://www.linkedin.com/in/chetnagrover/"
@@ -355,13 +435,6 @@
                   ></a>
                 </h3>
                 <p>Check more on Linkedin</p> -->
-                <iframe
-                  width="100%"
-                  src="https://www.youtube.com/embed/NJs_Gd80EBQ"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
               </div>
             </div>
           </div>
@@ -372,7 +445,7 @@
     <section class="reviews-section  sec-padding" id="reviews">
       <div class="container">
         <div class="row">
-          <div class="section-title">
+          <div class="section-title q-py-lg">
             <h2><span> Quotes </span></h2>
           </div>
         </div>
@@ -380,11 +453,9 @@
           <div class="review-item">
             <img alt="executive" src="/images/maigari7.jpg" />
             <p>
-              <i class="fa fa-quote-left" aria-hidden="true"></i> Chetna is very
-              proficient in her design skills and innovative thinking
-              capabilities makes her ever better from others. Keep working on
-              things untill they gets perfect and her team working abilities are
-              also key points.
+              <i class="fa fa-quote-left" aria-hidden="true"></i>If you do not
+              strive for excellence in your endeavours, you have lost your
+              purpose.
               <i class="fa fa-quote-right" aria-hidden="true"></i>
             </p>
             <q>Dr. Manzo Maigari</q>
@@ -393,11 +464,9 @@
           <div class="review-item">
             <img alt="executive" src="/images/maigari7.jpg" />
             <p>
-              <i class="fa fa-quote-left" aria-hidden="true"></i> Chetna is very
-              passionate about her Graphic designing skills. She is very
-              innovative and creative person. She is a calm minded person who
-              takes her responsibilities seriously and completes them before
-              time.<i class="fa fa-quote-right" aria-hidden="true"></i>
+              <i class="fa fa-quote-left" aria-hidden="true"></i> To be in
+              charge of any situation, one must at all times remain calm.
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
             </p>
             <q>Dr. Manzo Maigari</q>
           </div>
@@ -405,11 +474,9 @@
           <div class="review-item">
             <img alt="executive" src="/images/maigari7.jpg" />
             <p>
-              <i class="fa fa-quote-left" aria-hidden="true"></i>Chetna is
-              really hardworking and will never compromise on her work. Her
-              creativity and fun nature makes it awesome to work with her. She
-              really motivates others around her to work harder. Her positive
-              and fun nature will definitely help her in her future endeavors.
+              <i class="fa fa-quote-left" aria-hidden="true"></i>Never chase
+              after money, it will elude you; rather seek after creating value,
+              for money follows value.
               <i class="fa fa-quote-right" aria-hidden="true"></i>
             </p>
             <q>Dr. Manzo Maigari</q>
@@ -473,16 +540,22 @@
     </section> -->
 
     <section class="custom__bg-quote flex justify-center items-center q-px-xl">
-      <span class="text-h5 text-center text-white my-font-montserrat-light">
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, tempore.
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Ipsum, explicabo." -
-        <span class="text-primary">Dr. Manzo Maigari</span></span
+      <span
+        class="text-h3 text-weight-light text-center text-white my-font-montserrat-light"
+      >
+        'If you do not strive for excellence in your endeavours, you have lost
+        your purpose.'
+      </span>
+
+      <span class="text-primary text-weight-bold text-h5 span"
+        >- Dr. Manzo Maigari</span
       >
     </section>
 
     <section class="gallery q-pa-md bg-dark">
-      <h1 class="text-primary gallery">Gallery</h1>
+      <div class="section-title q-py-lg">
+        <h2><span> Gallery </span></h2>
+      </div>
       <Gallery />
     </section>
 
@@ -745,12 +818,12 @@
             </div>
             <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Email: </span>
-              <span class="text-primary">support@nabg.org</span>
+              <span class="text-primary">manzo@manzomaigari.com</span>
             </div>
-            <div class="text-body2 q-mt-md my-font-montserrat-light">
+            <!-- <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Phone: </span>
               <span class="text-primary">+234 807 777 7777</span>
-            </div>
+            </div> -->
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
@@ -784,8 +857,24 @@ export default {
 </script>
 
 <style lang="scss">
+.campaings {
+  background: grey !important;
+}
+.about {
+  background: #1d1d1d;
+}
+.section {
+  margin: 6rem 0 !important;
+}
+.dr {
+  width: 100%;
+  object-fit: contain;
+}
 .aboutt {
-  margin: 0rem 0 1.5rem !important ;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 0rem 0 2rem !important ;
 }
 
 .hello .section-title h2 {
@@ -805,6 +894,7 @@ export default {
 .q-card {
   //  box-shadow: 0 1px 5px rgb(0 0 0 / 20%), 0 2px 2px rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%);
   box-shadow: none !important;
+  background: none !important;
 }
 img {
   object-fit: contain;
@@ -817,6 +907,21 @@ img {
   width: 95%;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+.align {
+  align-items: center !important;
+}
+
+.middle {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.span {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .row,
@@ -857,9 +962,21 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 2px;
+  height: 3px;
   color: #ffff;
   background-color: #ffdb58;
+  transform: skewY(-3deg);
+}
+
+.section-title h2 .perp::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  color: #333;
+  background-color: #333;
   transform: skewY(-3deg);
 }
 
@@ -872,10 +989,15 @@ img {
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  min-height: 200px;
+  min-height: 300px;
+  text-align: center;
   z-index: 1;
   // box-shadow: #f2c037;
   background-color: #1d1d1d;
+}
+
+.card h5 {
+  font-size: 26px;
 }
 
 .card::before,
@@ -918,7 +1040,7 @@ img {
 
 .card h5 {
   color: #ffdb58;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 500;
   text-transform: capitalize;
   margin: 10px 0 10px;
@@ -933,7 +1055,7 @@ img {
 
 .fun-facts-section {
   background-color: #333;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 .fun-facts-img,
 .fun-facts-items {
@@ -958,7 +1080,7 @@ img {
     background-color: #ffdb58;
     width: 100% !important;
     margin: 0 15px 30px;
-    padding: 30px;
+    min-height: 200px;
     text-align: center;
     border-radius: 4px;
   }
@@ -1031,7 +1153,7 @@ img {
   background-color: #ffdb58;
   width: calc((100% / 2) - 30px);
   margin: 0 15px 30px;
-  padding: 30px;
+  min-height: 100%;
   text-align: center;
   border-radius: 4px;
 }
@@ -1085,7 +1207,7 @@ img {
   padding: 15px;
   margin-bottom: 20px;
   background: #1d1d1d;
-  height: 350px;
+  min-height: 250px;
   text-align: center;
   border-radius: 8px;
   // margin-bottom: 40px;
@@ -1108,7 +1230,6 @@ img {
   font-size: 20px;
   color: #fff;
   font-size: 16px;
-  min-height: 200px;
 }
 .review-item p i {
   color: #ffdb58;
@@ -1132,6 +1253,7 @@ img {
   text-transform: capitalize;
 }
 .custom__btn-pink {
+  margin: 1rem 0;
   text-decoration: none;
   padding: 15px 50px;
   border: 2px solid #ffdb58;
@@ -1156,5 +1278,227 @@ img {
 .link:hover {
   color: #e96e13 !important;
   transition: all 0.55s ease-in-out;
+}
+
+.about__img {
+  display: flex;
+  column-gap: 1rem;
+  align-self: center;
+  justify-content: center;
+}
+.about__img-overlay {
+  overflow: hidden;
+}
+
+.about__img-one {
+  width: 180px;
+}
+
+.about__img-two {
+  width: 130px;
+}
+
+.about__img-one,
+.about__img-two {
+  transition: 0.3s;
+}
+.about__img-one:hover,
+.about__img-two:hover {
+  transform: scale(1.1);
+}
+
+.experience__container {
+  row-gap: 2.5rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.experience__content {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  justify-items: center;
+  padding: 0 2rem;
+}
+
+.experience__number {
+  font-size: 1.5rem;
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-0-5);
+}
+.experience__description {
+  font-size: var(--small-font-size);
+}
+
+.experience__img {
+  position: relative;
+  padding-bottom: 2rem;
+  /* height: 500px; */
+  /* background: url(/pe/Ellipse\ 12.png) center center/cover; */
+}
+.experience__img .over {
+  position: relative;
+  margin-left: 4rem;
+}
+.experience__img .over img {
+  object-fit: contain;
+}
+.experience__img .over .rel {
+  position: relative;
+  // margin: 0 2rem;
+  transition: all 0.5s ease-in-out;
+
+  /* height: 500px; */
+}
+.experience__img .over .rel:hover {
+  z-index: 5;
+
+  /* height: 500px; */
+}
+
+.experience__overlay {
+  overflow: hidden;
+}
+.experience__overlay:nth-child(1) {
+  width: 100%;
+  /* width: 263px; */
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 500px; */
+  /* height: 300px; */
+}
+.experience__overlay:nth-child(2) {
+  // width: 200px;
+  width: 50%;
+  position: absolute;
+  /* bottom: 0; */
+  // height: 20px;
+  height: 40%;
+  top: 0rem !important;
+  left: -70px !important;
+  /* top: 2rem; */
+  /* right: 20px; */
+}
+.experience__overlay:nth-child(3) {
+  // width: 220px;
+  width: 50%;
+  position: absolute;
+  /* top: 12rem; */
+  bottom: -20% !important;
+  right: -70px;
+  // height: 170px;
+  height: 40%;
+  // left: -70px !important;
+  /* top: 2rem; */
+  /* right: 20px; */
+}
+
+.experience__img-one,
+.experience__img-two {
+  transition: 0.3s;
+}
+
+/* .experience__img-one {
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+
+.experience__img-two {
+  position: absolute;
+  z-index: 3;
+  height: 200px;
+  top: 0;
+  left: 0;
+} */
+.experience__img-one:hover,
+.experience__img-two:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+  .experience__overlay:nth-child(2) {
+    // width: 200px;
+    width: 50%;
+    position: absolute;
+    /* bottom: 0; */
+    // height: 20px;
+    height: 40%;
+    top: 0rem !important;
+    left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
+  .experience__overlay:nth-child(3) {
+    // width: 220px;
+    width: 50%;
+    position: absolute;
+    /* top: 12rem; */
+    bottom: -20% !important;
+    right: 0px;
+    // height: 170px;
+    height: 40%;
+    // left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
+}
+
+@media (max-width: 420px) {
+  .experience__overlay:nth-child(2) {
+    // width: 200px;
+    width: 50%;
+    position: absolute;
+    /* bottom: 0; */
+    // height: 20px;
+    height: 40%;
+    top: 0rem !important;
+    left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
+  .experience__overlay:nth-child(3) {
+    // width: 220px;
+    width: 50%;
+    position: absolute;
+    /* top: 12rem; */
+    bottom: -20% !important;
+    // right: -70px;
+    // height: 170px;
+    height: 40%;
+    // left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
+}
+@media (max-width: 350px) {
+  .experience__overlay:nth-child(2) {
+    // width: 200px;
+    width: 50%;
+    position: absolute;
+    /* bottom: 0; */
+    // height: 20px;
+    height: 40%;
+    top: 0rem !important;
+    left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
+  .experience__overlay:nth-child(3) {
+    // width: 220px;
+    width: 50%;
+    position: absolute;
+    /* top: 12rem; */
+    bottom: -20% !important;
+    right: 0px;
+    // height: 170px;
+    height: 40%;
+    // left: -70px !important;
+    /* top: 2rem; */
+    /* right: 20px; */
+  }
 }
 </style>

@@ -1,54 +1,55 @@
 <template>
   <div class="container-g">
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/alvavet11.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="vertical">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/alvavet44.jpg" />
     </a>
 
     <a href="" class="horizontal">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/agrofeed44.jpg" />
+      <!-- <img src="/images/babo11.jpg" /> -->
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/agrofeed11.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/44.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="big">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/babo11.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/babo33.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="vertical">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/tech11.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/babo44.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio" class="horizontal">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/babo22.jpg" />
     </a>
 
     <a href="" data-lightbox="homePortfolio">
-      <img src="/images/boss2.jpg" />
+      <img src="/images/alvavet66.jpg" />
     </a>
 
     <!-- <a href="" data-lightbox="homePortfolio" class="big">
       <img src="/images/boss1.jpg" />
     </a> -->
 
-    <a href="" data-lightbox="homePortfolio">
+    <!-- <a href="" data-lightbox="homePortfolio">
       <img src="/images/boss2.jpg" />
     </a>
 
@@ -58,7 +59,7 @@
 
     <a href="" data-lightbox="homePortfolio" class="center">
       <img src="/images/boss2.jpg" />
-    </a>
+    </a> -->
   </div>
 </template>
 
@@ -72,6 +73,10 @@ export default {};
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  transition: all 0.5s ease-in-out;
+}
+.container-g > a:hover {
+  transform: scale(1.1);
 }
 
 .container-g > a > img {
@@ -91,10 +96,16 @@ export default {};
 
 .horizontal {
   grid-column: span 2;
+  grid-row: span 2;
 }
 
+.horizontal {
+  grid-column: span 2;
+  grid-row: span 1;
+}
 .vertical {
   grid-row: span 2;
+  grid-column: span 2;
   /* grid-row: span 3; */
 }
 .center {
@@ -103,7 +114,7 @@ export default {};
 }
 
 .big {
-  grid-column: span 2;
+  grid-column: span 3;
   grid-row: span 2;
 }
 </style>
