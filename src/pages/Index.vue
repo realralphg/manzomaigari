@@ -255,17 +255,18 @@
             <q-card-section>
               <div class=" aboutt text-body1">
                 Manzo Maigari is the Director General, Nigeria Agribusiness
-                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Chairman,
-                Greysoft Technologies Limited, Nigeria Advisory Board Agricultural
-                Policy and Research in Africa (APRA) and Member, National Action
-                Committee, Africa Continental Free Trade Area (ACFTA). He was
-                previously the Commissioner for Agriculture & Forestry and for
-                Commerce, Industry and Tourismin Kaduna State, Nigeria within
-                the period of 2015 - 2019. Dr. Manzo has worked for a variety of
-                clients in the public and private sectors in areas relating to
-                Government and its Agencies (Local and International), Commerce,
-                Agriculture, Technology, Real Estate and Industries with a
-                strong arm for policy development and implementation.
+                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited,
+                Chairman, Greysoft Technologies Limited, Nigeria Advisory Board
+                Agricultural Policy and Research in Africa (APRA) and Member,
+                National Action Committee, Africa Continental Free Trade Area
+                (ACFTA). He was previously the Commissioner for Agriculture &
+                Forestry and for Commerce, Industry and Tourismin Kaduna State,
+                Nigeria within the period of 2015 - 2019. Dr. Manzo has worked
+                for a variety of clients in the public and private sectors in
+                areas relating to Government and its Agencies (Local and
+                International), Commerce, Agriculture, Technology, Real Estate
+                and Industries with a strong arm for policy development and
+                implementation.
               </div>
               <q-btn
                 class="about text-primary q-pa-sm"
@@ -737,16 +738,16 @@
             </div>
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/blog')"
+              @click="$router.push('/fellowship')"
             >
-              Blog
+              Fellowship
             </div>
-            <div
+            <!-- <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
               @click="$router.push('/media')"
             >
               Media
-            </div>
+            </div> -->
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
               @click="$router.push('/contact')"
@@ -760,55 +761,85 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/blog')"
+              @click="$router.push('/about')"
             >
-              Blog
+              FAQ
             </div>
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/project')"
+              @click="$router.push('/fellowship')"
             >
-              Projects
+              Send a Message
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 my-font-montserrat-light">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-facebook"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Facebook</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="https://www.facebook.com/manzo.maigari"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-facebook"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light"
+                  >Facebook</span
+                ></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-twitter"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Twitter</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="http://twitter.com"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-twitter"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light">Twitter</span></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-instagram"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Instagram</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="https://www.instagram.com/maigarimanzo/"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-instagram"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light"
+                  >Instagram</span
+                ></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-linkedin"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Linkedin</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="https://www.linkedin.com/in/manzo-maigari-a7b4b727/"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-linkedin"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light"
+                  >Linkedin</span
+                ></a
+              >
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
