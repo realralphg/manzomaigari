@@ -15,4 +15,8 @@ export default {
 body {
   font-family: "Roboto", sans-serif !important;
 }
+
+a {
+  text-decoration: none;
+}
 </style>

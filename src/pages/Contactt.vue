@@ -156,16 +156,16 @@
             </div>
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/blog')"
+              @click="$router.push('/fellowship')"
             >
-              Blog
+              Fellowship
             </div>
-            <div
+            <!-- <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
               @click="$router.push('/media')"
             >
               Media
-            </div>
+            </div> -->
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
               @click="$router.push('/contact')"
@@ -179,55 +179,83 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/blog')"
+              @click="$router.push('/about')"
             >
-              Blog
+              FAQ
             </div>
             <div
               class="text-body2 link q-mt-md cursor-pointer my-font-montserrat-light text-primary"
-              @click="$router.push('/project')"
+              @click="$router.push('/contact')"
             >
-              Projects
+              Send a message
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 my-font-montserrat-light">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-facebook"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Facebook</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="http://facebook.com"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-facebook"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light"
+                  >Facebook</span
+                ></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-twitter"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Twitter</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="http://twitter.com"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-twitter"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light">Twitter</span>
+              </a>
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-instagram"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Instagram</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="http://instagram.com"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-instagram"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light">Instagram</span>
+              </a>
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon
-                class="link"
-                color="grey-8"
-                name="ion-logo-linkedin"
-                style="font-size: 2em"
-              />
-              <span class="q-ml-sm my-font-montserrat-light">Linkedin</span>
+              <a
+                class=" my-font-montserrat-light text-white text-center"
+                href="http://linkedin.com"
+                target="_blank"
+              >
+                <q-icon
+                  class="link"
+                  color="grey-8"
+                  name="ion-logo-linkedin"
+                  style="font-size: 2em"
+                />
+                <span class="q-ml-sm my-font-montserrat-light"
+                  >Linkedin</span
+                ></a
+              >
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
