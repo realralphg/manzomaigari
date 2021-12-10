@@ -172,7 +172,7 @@
             <div class="text-body2 q-mt-md cursor-pointer">
               <a
                 class=" my-font-montserrat-light text-white text-center"
-                href="http://facebook.com"
+                href="https://www.facebook.com/manzo.maigari"
                 target="_blank"
               >
               <q-icon
@@ -200,7 +200,7 @@
             <div class="text-body2 q-mt-md cursor-pointer">
               <a
                 class=" my-font-montserrat-light text-white text-center"
-                href="http://instagram.com"
+                href="https://www.instagram.com/maigarimanzo/"
                 target="_blank"
               >
               <q-icon
@@ -214,7 +214,7 @@
             <div class="text-body2 q-mt-md cursor-pointer">
               <a
                 class=" my-font-montserrat-light text-white text-center"
-                href="http://linkedin.com"
+                href="https://www.linkedin.com/in/manzo-maigari-a7b4b727/"
                 target="_blank"
               >
               <q-icon
@@ -452,9 +452,7 @@ export default {
   }
 }
 
-.about i {
-  margin-left: 3rem;
-}
+
 .about__data {
   text-align: left;
   min-width: 400px;
