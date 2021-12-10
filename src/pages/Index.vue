@@ -254,8 +254,8 @@
             <q-card-section>
               <div class=" aboutt text-body1">
                 Manzo Maigari is the Director General, Nigeria Agribusiness
-                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited,
-                Greysoft Technologies, Nigeria Advisory Board Agricultural
+                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Chairman,
+                Greysoft Technologies Limited, Nigeria Advisory Board Agricultural
                 Policy and Research in Africa (APRA) and Member, National Action
                 Committee, Africa Continental Free Trade Area (ACFTA). He was
                 previously the Commissioner for Agriculture & Forestry and for
