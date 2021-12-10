@@ -5,6 +5,7 @@
         style="height: calc(100vh - 48px)"
         animated
         v-model="slide"
+        autoplay
         arrows
         control-color="white"
         navigation-icon="radio_button_unchecked"
@@ -254,17 +255,18 @@
             <q-card-section>
               <div class=" aboutt text-body1">
                 Manzo Maigari is the Director General, Nigeria Agribusiness
-                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Chairman,
-                Greysoft Technologies Limited, Nigeria Advisory Board Agricultural
-                Policy and Research in Africa (APRA) and Member, National Action
-                Committee, Africa Continental Free Trade Area (ACFTA). He was
-                previously the Commissioner for Agriculture & Forestry and for
-                Commerce, Industry and Tourismin Kaduna State, Nigeria within
-                the period of 2015 - 2019. Dr. Manzo has worked for a variety of
-                clients in the public and private sectors in areas relating to
-                Government and its Agencies (Local and International), Commerce,
-                Agriculture, Technology, Real Estate and Industries with a
-                strong arm for policy development and implementation.
+                Group (NABG); Chairman/Chief Executive Officer, Agrolog Limited,
+                Chairman, Greysoft Technologies Limited, Nigeria Advisory Board
+                Agricultural Policy and Research in Africa (APRA) and Member,
+                National Action Committee, Africa Continental Free Trade Area
+                (ACFTA). He was previously the Commissioner for Agriculture &
+                Forestry and for Commerce, Industry and Tourismin Kaduna State,
+                Nigeria within the period of 2015 - 2019. Dr. Manzo has worked
+                for a variety of clients in the public and private sectors in
+                areas relating to Government and its Agencies (Local and
+                International), Commerce, Agriculture, Technology, Real Estate
+                and Industries with a strong arm for policy development and
+                implementation.
               </div>
               <q-btn
                 class="about text-primary q-pa-sm"
