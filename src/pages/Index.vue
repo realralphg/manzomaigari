@@ -4,6 +4,7 @@
       <q-carousel
         style="height: calc(100vh - 48px)"
         animated
+        autoplay
         v-model="slide"
         arrows
         control-color="white"
@@ -131,11 +132,11 @@
             >
               Purpose. Passion.
             </span>
-            <!-- <span
-              class="text-white text-h4 my-font-montserrat-bold text-uppercase q-pa-0"
+            <span
+              class="text-primary text-h4 my-font-montserrat-bold text-uppercase q-pa-0"
             >
               Values. Impact.
-            </span> -->
+            </span>
 
             <span class="text-white text-r text-body1 my-font-montserrat-light"
               >Making African lives worth living through job creation,</span
