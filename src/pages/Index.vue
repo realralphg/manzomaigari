@@ -852,6 +852,12 @@
               <span>Email: </span>
               <span class="text-primary">manzo@manzomaigari.com</span>
             </div>
+
+            <div class="text-caption text-grey-6">
+              <q-btn class="q-mt-sm text-amber-5" no-caps small outline icon="mail" type="a" href="https://www.manzomaigari.com/webmail/" target="_blank">
+                <span class="q-pl-sm">Check Mail</span>
+              </q-btn> 
+            </div>            
             <!-- <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Phone: </span>
               <span class="text-primary">+234 807 777 7777</span>

@@ -67,10 +67,16 @@
             <p class="aboutt about__description text-body1">
               To become a Manzo Fellow, you are required to write a comprehensive 700 words (max) article telling us about yourself and why you are applying for this fellowship. Please be clear about how this fellowship will help you achieve your personal and professional goals.
 
-              Send article via email to <span class="text-primary">manzofellows@manzomaigari.com</span> 
-              
-
+              Send article via email to <span class="text-primary">manzofellows@manzomaigari.com</span>               
             </p>
+
+            <div class="aboutt about__description text-body1">
+              <b><span class="text-primary">Click here to Sign Up... </span></b>
+              <q-btn class="q-mt-sm text-amber-5" no-caps small outline icon="mail" type="a" href="https://forms.gle/AJV2BRMBAbUyNA6x5" target="_blank">
+                <span class="q-pl-sm">Sign Up</span>
+              </q-btn> 
+            </div>
+        
             <!-- <ul>
               <li>+ Membership Card</li>
               <li>+ Security</li>
@@ -93,9 +99,7 @@
               <img src="pe/home1.jpg " alt="" class="about__img-two" />
             </div>
           </div> -->
-          
-            
-          </div>
+                      
         </div>
     </section>
 
@@ -236,6 +240,12 @@
               <span>Email: </span>
               <span class="text-primary">manzo@manzomaigari.com</span>
             </div>
+
+            <div class="text-caption text-grey-6">
+              <q-btn class="q-mt-sm text-amber-5" no-caps small outline icon="mail" type="a" href="https://www.manzomaigari.com/webmail/" target="_blank">
+                <span class="q-pl-sm">Check Mail</span>
+              </q-btn> 
+            </div>             
             <!-- <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Phone: </span>
               <span class="text-primary">+234 807 777 7777</span>
