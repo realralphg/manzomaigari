@@ -218,15 +218,7 @@
         <div class="right">
           <h2 class="digi"><span class="perps text-primary"> Agrolog’s Corporate Social Responsibility </span></h2>
           <p class="middle text-white">
-        I strive to make a positive impact on everyone I meet and everywhere I
-        go; to be a solution provider and not a part of the problem to be
-        solved; to be a role model worthy of emulation; to be my best in all I
-        do particularly in the things I am naturally good at. To do the right
-        things at all times, regardless of who is doing the wrong things; to
-        value time and make the best use of it; care and show respect to all
-        through my words and actions and consciously build a great legacy,
-        starting now, today and everyday, living a life of integrity and honour
-        to make my family, my nation and my God proud.
+        As part of its Corporate Social Responsibility (CSR), Agrolog has embarked on a mission to cater for over 10,000 Internally Displaced Persons (IDPs) in Kaduna state, Nigeria. Farmers/Herders clash, insurgency and kidnappings are some of the reasons for the displacement of community inhabitants and in response to the unfortunate situation, Agrolog, in February, 2022 provided; food stuff such as maize, rice, beans, soy beans, palm oil, salt and seasoning as well as medication, sanitary pads, soaps and detergents for these IDPs across several local governments costing about 20 Million Naira. There are further plans to provide skill acquisition, empowerment programs and hopefully resettlement for the displaced which is totally in line with Agrolog’s overall vision of lifting the rural poor out of poverty and transforming them into the engine of economic prosperity.
       </p>
 
 
