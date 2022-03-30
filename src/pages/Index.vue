@@ -369,7 +369,7 @@
     </section>
 
     <setion class="campaings bg-dark">
-      <Hey />
+      <Impact />
     </setion>
 
     <section class="fun-facts-section bg-primary sec-padding">
@@ -886,7 +886,7 @@
 </template>
 
 <script>
-import Hey from "../components/impact.vue";
+import Impact from "../components/Impact.vue";
 // import Gallery from "../components/Gallery.vue";
 import Gallery from "../components/Gallery.vue";
 // import Contact from "./Contact.vue";
@@ -894,7 +894,7 @@ import Gallery from "../components/Gallery.vue";
 export default {
   name: "PageIndex",
   components: {
-    Hey,
+    Impact,
     Gallery
   },
   data: () => ({
