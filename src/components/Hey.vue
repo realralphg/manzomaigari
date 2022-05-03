@@ -52,6 +52,19 @@
     >
       <div class="cardd">
         <figure class="carousel-img">
+          <img src="/images/sdm.jpeg" />
+
+          <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+          SDM Analysis Team, Netherlands visits with Agrolog.
+        </p>
+        
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
           <img src="/images/44.jpg" />
 
           <!-- <figcaption>
@@ -63,15 +76,7 @@
           meeting with Hungaroseeds (Seed Assocuation in Hungary) and maize
           breeders in Hungary - Budapest, Hungary
         </p>
-        <!-- <figcaption>
-          <v-btn text color="white">{{ slide.text }}</v-btn>
-        </figcaption> -->
-        <!-- <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        ratione pariatur, harum mollitia quisquam et doloremque unde
-        necessitatibus blanditiis?
-      </p>
-      <a href="Learn More">Read More</a> -->
+        
       </div>
       <div class="cardd">
         <figure class="carousel-img">
