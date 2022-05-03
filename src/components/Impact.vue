@@ -506,7 +506,7 @@ export default {
   grid-template-columns: repeat(2,1fr);
   gap: 2rem;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
   padding: 2rem 0;
 }
 
