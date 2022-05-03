@@ -221,7 +221,7 @@
     <div class="holder">
       <div class="wrappe container">
         <div class="right">
-          <h2 class="digi"><span class="perps text-primary"> Agrolog’s Corporate Social Responsibility </span></h2>
+          <h2 class="digi"><span class="perps text-primary"> Corporate Social Responsibility </span></h2>
           <p class="middle text-white">
         As part of its Corporate Social Responsibility (CSR), Agrolog has embarked on a mission to cater for over 10,000 Internally Displaced Persons (IDPs) in Kaduna state, Nigeria. Farmers/Herders clash, insurgency and kidnappings are some of the reasons for the displacement of community inhabitants and in response to the unfortunate situation, Agrolog, in February, 2022 provided; food stuff such as maize, rice, beans, soy beans, palm oil, salt and seasoning as well as medication, sanitary pads, soaps and detergents for these IDPs across several local governments costing about 20 Million Naira. There are further plans to provide skill acquisition, empowerment programs and hopefully resettlement for the displaced which is totally in line with Agrolog’s overall vision of lifting the rural poor out of poverty and transforming them into the engine of economic prosperity.
       </p>
@@ -254,7 +254,7 @@
         <div class="right">
           <h2 class="digi"><span class=" text-primary"> Empowering Nigerian Youth with Digital and Creative Skills </span></h2>
           <p class="middle text-white">
-        15th January 2022 proved a turning point for our nation’s teeming youths, as Nigerians from different walks of life trooped to Kaduna to witness the launching of a new innovation hub, GreyHobb, founded by Greysoft Technologies to provide IT training programmes. The major reason behind the establishment of the hub is to build capacity of digital enthusiasts and professionals in order to synergise with critical partners towards building a knowledge hub system that can confront the challenges militating against the development of Nigeria.
+        The 15th January 2022 proved a turning point for our nation’s teeming youths, as Nigerians from different walks of life trooped to Kaduna to witness the launching of a new innovation hub, GreyHobb, founded by Greysoft Technologies to provide IT training programmes. The major reason behind the establishment of the hub is to build capacity of digital enthusiasts and professionals in order to synergise with critical partners towards building a knowledge hub system that can confront the challenges militating against the development of Nigeria.
       </p>
 
       <q-btn to="/post" class="bg-primary q-px-xl q-py-sm q-my-lg text-white">Read More</q-btn>
