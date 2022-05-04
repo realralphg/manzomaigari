@@ -59,7 +59,8 @@
           </figcaption> -->
         </figure>
         <p class="text-primary text-center q-px-lg">
-          SDM Analysis Team, Netherlands visits with Agrolog.
+          
+          The Netherlands Service Delivery Model (SDM) analysis team concluded a fact finding study on Service Delivery Model for Agrolog Ginger Value Chain development with a view to establishing a sustainable and robust service delivery model for Agrolog.
         </p>
         
       </div>
