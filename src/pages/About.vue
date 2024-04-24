@@ -12,7 +12,7 @@
     </section>
 
     <!-- <section class="quote">
-      
+
     </section> -->
 
     <section class="about section q-py-xl" id="about">
@@ -26,53 +26,63 @@
           <!-- <h4>Community, Technology, Creativity, Finance & more...</h4> -->
           <p class="aboutt about__description text-body1">
             Manzo Maigari is the Director General, Nigeria Agribusiness Group
-            (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Chairman, Greysoft
-            Technologies Limited, Nigeria Advisory Board Agricultural Policy and
-            Research in Africa (APRA), Member, National Advisory Board for Advancing Local 
-            Dairy Development in Nigeria (ALDDN), Member, National Agricultural Technology 
-            and Innovation Program (NATIP), Member, Board of Directors, Nigerian Youth Chamber 
-            of Commerce and Member, National Action Committee,
-            Africa Continental Free Trade Area (ACFTA). He was previously the
-            Commissioner for Agriculture & Forestry and for Commerce, Industry
-            and Tourismin Kaduna State, Nigeria within the period of 2015 -
-            2019. He led the Nigerian Agribusiness Group (NABG) to approve a climate smart 
-            agriculture segment with a sector expert to head it. This is aimed at giving 
-            Nigeria a voice and accentuate Africa’s effort globally even as we struggle to 
-            mitigate the negative impacts of climate change which majorly arises from 
-            unsustainable agricultural practices.
-            <br /> <br />
-            Dr. Manzo has worked for a variety of clients in the public and
-            private sectors in areas relating to Government and its Agencies
-            (Local and International), Commerce, Agriculture, Technology, Real
-            Estate and Industries with a strong arm for policy development and
-            implementation. For these clients, he has developed strategies to
-            deliver business value and assessed, designed and implement
-            management systems to ensure compliance, manage risk and obtain
-            competitive advantage. 
-            <br> <br>
-            Dr. Manzo holds a DVM (Doctor of Veterinary
-            Medicine) from Ahmadu Bello University. He is also an alumni of Lee Kwan Yew Institute of Public policy 
-            (leadership), Havard (Entrepreneurship in emerging economies) and 
-            Busines School Netherlands (Agribusiness). He is currently a student at 
-             Royal Kennedy College, Switzerland / University of Cumbria for the award of 
-             MBA, Leadership and Sustainability. His
-            unending achievements include but not limited to; developing the
-            Kaduna State Forestry Policy and the Forestry Law of 2016; Kaduna
-            State Agricultural Extension Framework and Law that upgraded the
-            Kaduna Agricultural Development Project (KADP) to a Statutory
-            Agency; the Kaduna Agricultural Development Agency (KADA); Kaduna
-            State Livestock Development Roadmap and Law establishing Kaduna
-            Livestock and Livestock Products Regulatory Agency; Agricultural
-            Sector Implementation Plan (SIP) of the Kaduna State Development
-            Plan (SDP); Commercial, Industrial and Tourism Sector Implementation
-            Plan (SIP) of the Kaduna State Development Plan; Kaduna State
-            Charter on Ease of Doing Business; Kaduna State Job Creation and
-            Skill Development Policy; Extension Service Delivery Framework for
-            Nomadic Dairy Farmers that Increased Daily Milk Output from 1litre
-            to 3.5 litres per Cow; Community Business Model for Nomads in the
-            Kachia Grazing Reserve with a Processing Facility that has Cut Down
-            Milk Wastages.
+            (NABG); Chairman/Chief Executive Officer, Agrolog Limited, Chairman,
+            Greysoft Technologies Limited, Nigeria Advisory Board Agricultural
+            Policy and Research in Africa (APRA), Member, National Advisory
+            Board for Advancing Local Dairy Development in Nigeria (ALDDN),
+            Member, National Agricultural Technology and Innovation Program
+            (NATIP), Member, Board of Directors, Nigerian Youth Chamber of
+            Commerce and Member, National Action Committee, Africa Continental
+            Free Trade Area (ACFTA). He was previously the Commissioner for
+            Agriculture & Forestry and for Commerce, Industry and Tourismin
+            Kaduna State, Nigeria within the period of 2015 - 2019. He led the
+            Nigerian Agribusiness Group (NABG) to approve a climate smart
+            agriculture segment with a sector expert to head it. This is aimed
+            at giving Nigeria a voice and accentuate Africa’s effort globally
+            even as we struggle to mitigate the negative impacts of climate
+            change which majorly arises from unsustainable agricultural
+            practices.
+
+            <br />
+            <br />
+            <span v-if="showMore"
+              >Dr. Manzo has worked for a variety of clients in the public and
+              private sectors in areas relating to Government and its Agencies
+              (Local and International), Commerce, Agriculture, Technology, Real
+              Estate and Industries with a strong arm for policy development and
+              implementation. For these clients, he has developed strategies to
+              deliver business value and assessed, designed and implement
+              management systems to ensure compliance, manage risk and obtain
+              competitive advantage. <br />
+              <br />
+              Dr. Manzo holds a DVM (Doctor of Veterinary Medicine) from Ahmadu
+              Bello University. He is also an alumni of Lee Kwan Yew Institute
+              of Public policy (leadership), Havard (Entrepreneurship in
+              emerging economies) and Busines School Netherlands (Agribusiness).
+              He is currently a student at Royal Kennedy College, Switzerland /
+              University of Cumbria for the award of MBA, Leadership and
+              Sustainability. His unending achievements include but not limited
+              to; developing the Kaduna State Forestry Policy and the Forestry
+              Law of 2016; Kaduna State Agricultural Extension Framework and Law
+              that upgraded the Kaduna Agricultural Development Project (KADP)
+              to a Statutory Agency; the Kaduna Agricultural Development Agency
+              (KADA); Kaduna State Livestock Development Roadmap and Law
+              establishing Kaduna Livestock and Livestock Products Regulatory
+              Agency; Agricultural Sector Implementation Plan (SIP) of the
+              Kaduna State Development Plan (SDP); Commercial, Industrial and
+              Tourism Sector Implementation Plan (SIP) of the Kaduna State
+              Development Plan; Kaduna State Charter on Ease of Doing Business;
+              Kaduna State Job Creation and Skill Development Policy; Extension
+              Service Delivery Framework for Nomadic Dairy Farmers that
+              Increased Daily Milk Output from 1litre to 3.5 litres per Cow;
+              Community Business Model for Nomads in the Kachia Grazing Reserve
+              with a Processing Facility that has Cut Down Milk Wastages.
+            </span>
           </p>
+
+          <q-btn color="primary" @click="showMore = !showMore">
+            Show more
+          </q-btn>
           <!-- <a href="about.html" class="button">More About Us</a> -->
         </div>
         <div class="about__img" data-aos="zoom-in">
@@ -418,10 +428,19 @@
             </div>
 
             <div class="text-caption text-grey-6">
-              <q-btn class="q-mt-sm text-amber-5" no-caps small outline icon="mail" type="a" href="https://www.manzomaigari.com/webmail/" target="_blank">
+              <q-btn
+                class="q-mt-sm text-amber-5"
+                no-caps
+                small
+                outline
+                icon="mail"
+                type="a"
+                href="https://www.manzomaigari.com/webmail/"
+                target="_blank"
+              >
                 <span class="q-pl-sm">Check Mail</span>
-              </q-btn> 
-            </div> 
+              </q-btn>
+            </div>
             <!-- <div class="text-body2 q-mt-md my-font-montserrat-light">
               <span>Phone: </span>
               <span class="text-primary">+234 807 777 7777</span>
@@ -449,6 +468,12 @@ export default {
     Curved,
     Animecard,
     Simple
+  },
+
+  data() {
+    return {
+      showMore: false
+    };
   }
 };
 </script>

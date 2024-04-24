@@ -22,6 +22,7 @@
       :dots="true"
       :slidesToShow="3"
       autoplay: true
+      :autoplaySpeed='1000'
       :responsive="[
         {
           breakpoint: 1524,
@@ -29,7 +30,9 @@
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            autoplay: true,
+            autoplaySpeed:3000,
+            dots: true,
           }
         },
         {
@@ -37,32 +40,83 @@
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2
+            initialSlide: 2,
+            autoplay: true,
+            autoplaySpeed:3000,
           }
         },
         {
           breakpoint: 800,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed:3000,
           }
         }
       ]"
       class="container"
     >
+
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/prize.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         The Manzo Small Business Challenge, Dr. Manzo Maigari, Chairman, Greysoft Technologies believes that with the right investment, mentorship and dose of innovation, small businesses become the bedrock of economic Prosperity.
+        </p>
+        <!-- <span>Small businesses owners, if properly guided become the big businesses that contribute to national GDP, employ people and improve lives and livelihoods. Rachael Bawado a small business owner who participated in the challenge by pitching her business for the prize won Five Hindred Thousand Naira (N500,000).</span> -->
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/withCom.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         Dr. Manzo Maigari and the Kaduna State Commissioner for Agriculture, Malam Ibrahim Hassaini at the WAYFARC Conference 2022 powered by Bill & Melinda Gates Foundation and The Nigerian Agribusiness Group.
+        </p>
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/climatesm.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         Dr. Manzo Maigari speaks on Climate Smart Agriculture (CSA) at the WAYFARC Conference 2022 powered by Bill & Melinda Gates Foundation and The Nigerian Agribusiness Group.
+        </p>
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/ocp.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         Dr. Manzo Maigari  at the launch of OCP Fertilizer plant in Kaduna, Nigeria.
+        </p>
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/kukahVoteOT.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         Vote of thanks at the Kukah Prize for Young Innovators 2022 by Dr. Manzo Maigari.
+        </p>
+      </div>
+      <div class="cardd">
+        <figure class="carousel-img">
+          <img src="/images/atKukah.jpeg" />
+        </figure>
+        <p class="text-primary text-center q-px-lg">
+         At Bishop Matthew Hassan Kukah's 70th Birthday- August 31st 2022
+        </p>
+
+      </div>
       <div class="cardd">
         <figure class="carousel-img">
           <img src="/images/sdm.jpeg" />
-
-          <!-- <figcaption>
-            <v-btn text color="white">{{ slide.text }}</v-btn>
-          </figcaption> -->
         </figure>
         <p class="text-primary text-center q-px-lg">
-          
+
           The Netherlands Service Delivery Model (SDM) analysis team concluded a fact finding study on Service Delivery Model for Agrolog Ginger Value Chain development with a view to establishing a sustainable and robust service delivery model for Agrolog.
         </p>
-        
+
       </div>
       <div class="cardd">
         <figure class="carousel-img">
@@ -77,7 +131,7 @@
           meeting with Hungaroseeds (Seed Assocuation in Hungary) and maize
           breeders in Hungary - Budapest, Hungary
         </p>
-        
+
       </div>
       <div class="cardd">
         <figure class="carousel-img">
@@ -220,12 +274,33 @@
       </div>
     </VueSlickCarousel>
     <div class="holder">
+      <div class="wrappe flexer container">
+        <div class="left likee">
+          <img src="/images/prize.jpeg" alt="">
+          <div class="lil">
+            <img src="/images/prize1.jpeg" alt="">
+            <img src="/images/priceImg.jpeg" alt="">
+
+          </div>
+
+
+
+        </div>
+        <div class="right">
+          <h2 class="digi"><span class=" text-primary"> The Manzo Small Business Challenge </span></h2>
+          <p class="middle text-white">
+            Dr. Manzo Maigari, Chairman, Greysoft Technologies believes that with the right investment, mentorship and dose of innovation, small businesses become the bedrock of economic Prosperity. Small businesses owners, if properly guided become the big businesses that contribute to national GDP, employ people and improve lives and livelihoods. Rachael Bawado a small business owner who participated in the challenge by pitching her business for the prize won Five Hindred Thousand Naira (N500,000).
+          </p>
+
+          <!-- <q-btn to="/post" class="bg-primary q-px-xl q-py-sm q-my-lg text-white">Read More</q-btn> -->
+        </div>
+      </div>
       <div class="wrappe container">
         <div class="right">
           <h2 class="digi"><span class="perps text-primary"> Corporate Social Responsibility </span></h2>
           <p class="middle text-white">
-        As part of its Corporate Social Responsibility (CSR), Agrolog has embarked on a mission to cater for over 10,000 Internally Displaced Persons (IDPs) in Kaduna state, Nigeria. Farmers/Herders clash, insurgency and kidnappings are some of the reasons for the displacement of community inhabitants and in response to the unfortunate situation, Agrolog, in February, 2022 provided; food stuff such as maize, rice, beans, soy beans, palm oil, salt and seasoning as well as medication, sanitary pads, soaps and detergents for these IDPs across several local governments costing about 20 Million Naira. There are further plans to provide skill acquisition, empowerment programs and hopefully resettlement for the displaced which is totally in line with Agrolog’s overall vision of lifting the rural poor out of poverty and transforming them into the engine of economic prosperity.
-      </p>
+            As part of its Corporate Social Responsibility (CSR), Agrolog has embarked on a mission to cater for over 10,000 Internally Displaced Persons (IDPs) in Kaduna state, Nigeria. Farmers/Herders clash, insurgency and kidnappings are some of the reasons for the displacement of community inhabitants and in response to the unfortunate situation, Agrolog, in February, 2022 provided; food stuff such as maize, rice, beans, soy beans, palm oil, salt and seasoning as well as medication, sanitary pads, soaps and detergents for these IDPs across several local governments costing about 20 Million Naira. There are further plans to provide skill acquisition, empowerment programs and hopefully resettlement for the displaced which is totally in line with Agrolog’s overall vision of lifting the rural poor out of poverty and transforming them into the engine of economic prosperity.
+          </p>
 
 
 
@@ -249,16 +324,16 @@
 
           </div>
 
-          
+
 
         </div>
         <div class="right">
           <h2 class="digi"><span class=" text-primary"> Empowering Nigerian Youth with Digital and Creative Skills </span></h2>
           <p class="middle text-white">
-        The 15th January 2022 proved a turning point for our nation’s teeming youths, as Nigerians from different walks of life trooped to Kaduna to witness the launching of a new innovation hub, GreyHobb, founded by Greysoft Technologies to provide IT training programmes. The major reason behind the establishment of the hub is to build capacity of digital enthusiasts and professionals in order to synergise with critical partners towards building a knowledge hub system that can confront the challenges militating against the development of Nigeria.
-      </p>
+            The 15th January 2022 proved a turning point for our nation’s teeming youths, as Nigerians from different walks of life trooped to Kaduna to witness the launching of a new innovation hub, GreyHobb, founded by Greysoft Technologies to provide IT training programmes. The major reason behind the establishment of the hub is to build capacity of digital enthusiasts and professionals in order to synergise with critical partners towards building a knowledge hub system that can confront the challenges militating against the development of Nigeria.
+          </p>
 
-      <q-btn to="/post" class="bg-primary q-px-xl q-py-sm q-my-lg text-white">Read More</q-btn>
+          <q-btn to="/post" class="bg-primary q-px-xl q-py-sm q-my-lg text-white">Read More</q-btn>
 
 
 
@@ -274,7 +349,7 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
   components: {
-    VueSlickCarousel
+    VueSlickCarousel,
   },
   data() {
     return {
@@ -298,8 +373,8 @@ export default {
               infinite: true,
               dots: true,
               autoplay: true,
-              autoplaySpeed: 2000
-            }
+              autoplaySpeed: 2000,
+            },
           },
           {
             breakpoint: 800,
@@ -308,20 +383,20 @@ export default {
               slidesToScroll: 2,
               initialSlide: 2,
               autoplay: true,
-              autoplaySpeed: 2000
-            }
+              autoplaySpeed: 2000,
+            },
           },
           {
             breakpoint: 650,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      }
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      },
     };
-  }
+  },
 };
 </script>
 
@@ -331,7 +406,7 @@ export default {
   margin: 0 auto;
   max-width: 1440px;
 }
-.holder{
+.holder {
   padding: 4rem 0;
 }
 .cardd {
@@ -501,16 +576,14 @@ export default {
   /* text-indent: 9000px; */
 }
 
-
-.wrappe{
+.wrappe {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   align-items: center;
   margin: 2rem auto;
   padding: 2rem 0;
 }
-
 
 .wrappe h2 {
   text-align: left;
@@ -533,7 +606,7 @@ export default {
   height: 3px;
   color: #ffff;
   background-color: #fff;
-  transform: skewY(-.65deg);
+  transform: skewY(-0.65deg);
 }
 
 .wrappe h2 .perp::after {
@@ -548,12 +621,12 @@ export default {
   /* transform: skewY(-3deg); */
 }
 
-.wrappe h2.digi{
+.wrappe h2.digi {
   line-height: 2.4rem !important;
   text-align: left;
 }
 
-.likee{
+.likee {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -563,21 +636,19 @@ button #value {
   display: none;
 }
 
+@media (max-width: 800px) {
+  .wrappe {
+    grid-template-columns: 1fr;
+  }
 
-@media(max-width: 800px){
-  .wrappe{
-  grid-template-columns: 1fr;
-}
+  .flexer {
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+  }
 
-.flexer{
-  display: flex;
-  flex-direction: column-reverse;
-  /* align-items: center; */
-}
-
-.left{
-  width: 100%;
-}
-
+  .left {
+    width: 100%;
+  }
 }
 </style>
